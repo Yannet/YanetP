@@ -1,10 +1,110 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 25/04/2017, 06:42:32 PM
-    Author     : UPEU
-*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url('../imagenes/fondo.jpg');
+}
 
+nav ul{
+	list-style: none;
+}
+nav > ul{
+	display: table;
+	width: 100%;
+	position: relative;
+}
+
+nav > ul li{
+	display: table-cell;
+}
+nav > ul li a{
+        color: #999999;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+        transition:all .3s ease;
+}
+.footer ul{
+	list-style: none;
+}
+.footer > ul{
+	display: table;
+	width: 100%;
+	position: relative;display: table-cell;
+}
+
+.footer > ul li{
+	display: table-cell;
+}
+.footer > ul li a{
+	color: #999999;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+        transition:all .3s ease;
+}
+
+
+.featured{
+    color: white
+}
+
+menu{
+    float: left;
+    margin-top: -3em;
+}
+
+
+
+.featured{
+   background-image: url('../imagenes/html55.jpg'); 
+   width: 80%;
+   height: 500px;
+}
+p{
+    line-height: 1.2em; font-size: 1em;
+    color: white;
+    left: auto;
+
+    
+}
+
+menu{
+    
+}
+
+@font-face {
+    font-family: 'KreonBold';
+    src: url('../fonts/kreon-bold-webfont.eot');
+    src: url('../fonts/kreon-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/kreon-bold-webfont.woff') format('woff'),
+    url('../fonts/kreon-bold-webfont.ttf') format('truetype'),
+    url('../fonts/kreon-bold-webfont.svg#KreonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kreonlight';
+    src: url('../fonts/kreon-light-webfont.eot');
+    src: url('../fonts/kreon-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/kreon-light-webfont.woff') format('woff'),
+    url('../fonts/kreon-light-webfont.ttf') format('truetype'),
+    url('../fonts/kreon-light-webfont.svg#kreonlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
